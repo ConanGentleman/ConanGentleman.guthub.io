@@ -6,7 +6,7 @@
   <link href="/ConanGentleman.guthub.io/atom.xml" rel="self"/>
   
   <link href="https://github.com/ConanGentleman/ConanGentleman.guthub.io/"/>
-  <updated>2018-08-01T15:30:07.037Z</updated>
+  <updated>2018-08-02T11:45:41.393Z</updated>
   <id>https://github.com/ConanGentleman/ConanGentleman.guthub.io/</id>
   
   <author>
@@ -17,21 +17,17 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>blog</title>
+    <title>测试</title>
     <link href="https://github.com/ConanGentleman/ConanGentleman.guthub.io/2018/08/01/blog/"/>
     <id>https://github.com/ConanGentleman/ConanGentleman.guthub.io/2018/08/01/blog/</id>
     <published>2018-08-01T15:26:50.000Z</published>
-    <updated>2018-08-01T15:30:07.037Z</updated>
+    <updated>2018-08-02T11:45:41.393Z</updated>
     
-    <content type="html"><![CDATA[<p>我的第一篇文章!</p>]]></content>
+    <content type="html"><![CDATA[<p>这是一篇测试博文<br><a id="more"></a></p><p>#测试插入代码</p><p>##测试代码</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#include&lt;iostream&gt;</span></span><br><span class="line">using namespace std;</span><br><span class="line">int main()</span><br><span class="line">&#123;</span><br><span class="line">cout&lt;&lt;<span class="string">"Hello world!"</span>&lt;&lt;endl;//测试注释</span><br><span class="line"><span class="built_in">return</span> 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>#测试连接<br><a href="https://paste.ubuntu.com/" target="_blank" rel="noopener">分享代码</a></p>]]></content>
     
     <summary type="html">
     
-      
-      
-        &lt;p&gt;我的第一篇文章!&lt;/p&gt;
-
-      
+      &lt;p&gt;这是一篇测试博文&lt;br&gt;
     
     </summary>
     
