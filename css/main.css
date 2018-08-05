@@ -2043,7 +2043,7 @@ img:hover {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #a1ffc7;
+  background: #8e87e2;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3315,7 +3315,7 @@ ul.breadcrumb li+li:last-child {
   }
 }
 body {
-  background-image: url("/ConanGentleman.guthub.io/images/background.jpg");
+  background-image: url("/images/background.jpg");
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: 50% 50%;
