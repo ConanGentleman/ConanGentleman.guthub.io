@@ -126,18 +126,18 @@
 
 
 
-  <meta name="description" content="来源 HDU 6441 Find Integer 描述 ¶Problem Description  people in USSS love math very much, and there is a famous math problem. give you two integers n,a,you are required to find 2 integers b,c such that an">
-<meta name="keywords" content="费马大定理、快读">
+  <meta name="description" content="来源 HDU 6441 Find Integer描述Problem Description people in USSS love math very much, and there is a famous math problem.give you two integers n,a,you are required to find 2 integers b,c such that a^n+b^n">
+<meta name="keywords" content="思维">
 <meta property="og:type" content="article">
 <meta property="og:title" content="费马大定理+快读">
 <meta property="og:url" content="https://conangentleman.github.io/2018/08/27/1/index.html">
 <meta property="og:site_name" content="ConanMoke&#39;s Blog">
-<meta property="og:description" content="来源 HDU 6441 Find Integer 描述 ¶Problem Description  people in USSS love math very much, and there is a famous math problem. give you two integers n,a,you are required to find 2 integers b,c such that an">
+<meta property="og:description" content="来源 HDU 6441 Find Integer描述Problem Description people in USSS love math very much, and there is a famous math problem.give you two integers n,a,you are required to find 2 integers b,c such that a^n+b^n">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2018-08-28T06:29:43.176Z">
+<meta property="og:updated_time" content="2018-09-06T05:03:53.342Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="费马大定理+快读">
-<meta name="twitter:description" content="来源 HDU 6441 Find Integer 描述 ¶Problem Description  people in USSS love math very much, and there is a famous math problem. give you two integers n,a,you are required to find 2 integers b,c such that an">
+<meta name="twitter:description" content="来源 HDU 6441 Find Integer描述Problem Description people in USSS love math very much, and there is a famous math problem.give you two integers n,a,you are required to find 2 integers b,c such that a^n+b^n">
 
 
 
@@ -418,7 +418,7 @@
                 
                   <span class="post-meta-item-text">更新于</span>
                 
-                <time title="修改时间：2018-08-28 14:29:43" itemprop="dateModified" datetime="2018-08-28T14:29:43+08:00">2018-08-28</time>
+                <time title="修改时间：2018-09-06 13:03:53" itemprop="dateModified" datetime="2018-09-06T13:03:53+08:00">2018-09-06</time>
               
             
           </span>
@@ -435,7 +435,7 @@
                 <span class="post-meta-item-text">分类于</span>
               
               
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/费马大定理、快读/" itemprop="url" rel="index"><span itemprop="name">费马大定理、快读</span></a></span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/矩阵快速幂/" itemprop="url" rel="index"><span itemprop="name">矩阵快速幂</span></a></span>
 
                 
                 
@@ -481,40 +481,21 @@
       
 
       
-        <h1>来源 HDU 6441 <a href="http://acm.hdu.edu.cn/showproblem.php?pid=6441" target="_blank" rel="noopener">Find Integer</a></h1>
-<h1>描述</h1>
-<h2 id="problem-description"><a class="header-anchor" href="#problem-description">¶</a>Problem Description</h2>
-<blockquote>
-<p>people in USSS love math very much, and there is a famous math problem.<br>
-give you two integers n,a,you are required to find 2 integers b,c such that a<sup>n+b</sup>n=c^n.</p>
+        <h1 id="来源-HDU-6441-Find-Integer"><a href="#来源-HDU-6441-Find-Integer" class="headerlink" title="来源 HDU 6441 Find Integer"></a>来源 HDU 6441 <a href="http://acm.hdu.edu.cn/showproblem.php?pid=6441" target="_blank" rel="noopener">Find Integer</a></h1><h1 id="描述"><a href="#描述" class="headerlink" title="描述"></a>描述</h1><h2 id="Problem-Description"><a href="#Problem-Description" class="headerlink" title="Problem Description"></a>Problem Description</h2><blockquote>
+<p>people in USSS love math very much, and there is a famous math problem.<br>give you two integers n,a,you are required to find 2 integers b,c such that a^n+b^n=c^n.</p>
 </blockquote>
-<h2 id="input"><a class="header-anchor" href="#input">¶</a>Input</h2>
-<blockquote>
-<p>one line contains one integer T;(1≤T≤1000000)<br>
-next T lines contains two integers n,a;(0≤n≤1000,000,000,3≤a≤40000)</p>
+<h2 id="Input"><a href="#Input" class="headerlink" title="Input"></a>Input</h2><blockquote>
+<p>one line contains one integer T;(1≤T≤1000000)<br>next T lines contains two integers n,a;(0≤n≤1000,000,000,3≤a≤40000)</p>
 </blockquote>
-<h2 id="output"><a class="header-anchor" href="#output">¶</a>Output</h2>
-<blockquote>
-<p>print two integers b,c if b,c exits;(1≤b,c≤1000,000,000);<br>
-else print two integers -1 -1 instead.</p>
+<h2 id="Output"><a href="#Output" class="headerlink" title="Output"></a>Output</h2><blockquote>
+<p>print two integers b,c if b,c exits;(1≤b,c≤1000,000,000);<br>else print two integers -1 -1 instead.</p>
 </blockquote>
-<h2 id="sample-input"><a class="header-anchor" href="#sample-input">¶</a>Sample Input</h2>
-<blockquote>
-<p>1<br>
-2 3</p>
+<h2 id="Sample-Input"><a href="#Sample-Input" class="headerlink" title="Sample Input"></a>Sample Input</h2><blockquote>
+<p>1<br>2 3</p>
+<h2 id="Sample-Output"><a href="#Sample-Output" class="headerlink" title="Sample Output"></a>Sample Output</h2><p>4 5<br><a id="more"></a></p>
+<p>题意是给出一个a和n，求出两个整数b、c，使得满足a^n+b^n=c^n,满足输出b、c,不满足输出-1 -1。<br>根据<a href="https://baike.baidu.com/item/%E8%B4%B9%E9%A9%AC%E5%A4%A7%E5%AE%9A%E7%90%86/80363?fr=aladdin" target="_blank" rel="noopener">费马大定理</a><br>可知当整数n &gt;2时，关于x, y, z的方程 x^n + y^n = z^n 没有正整数解，因此当n&gt;2我们直接输出-1 -1，而当n=1时，也可以直接特判输出1 a+1 。而对于n等于2的情况满足一些规律。同时本题卡时间，需要运用快读输入<br>直接上代码。<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#include&lt;math.h&gt;</span></span><br><span class="line"><span class="comment">#include&lt;stdio.h&gt;</span></span><br><span class="line"><span class="comment">#include&lt;string.h&gt;</span></span><br><span class="line">//快读模板</span><br><span class="line">template &lt;typename T&gt;inline void <span class="built_in">read</span>(T &amp;x)&#123;</span><br><span class="line">    char c;int sign=1;x=0;</span><br><span class="line">    <span class="keyword">do</span>&#123;c=getchar();<span class="keyword">if</span>(c==<span class="string">'-'</span>)sign=-1;&#125;<span class="keyword">while</span>(c&lt;<span class="string">'0'</span>||c&gt;<span class="string">'9'</span>);</span><br><span class="line">    <span class="keyword">do</span>&#123;x=x*10+c-<span class="string">'0'</span>;c=getchar();&#125;<span class="keyword">while</span>(c&gt;=<span class="string">'0'</span>&amp;&amp;c&lt;=<span class="string">'9'</span>);</span><br><span class="line">    x*=sign;</span><br><span class="line">&#125;</span><br><span class="line">//</span><br><span class="line">int main()</span><br><span class="line">&#123;</span><br><span class="line">	int t;</span><br><span class="line">	int n,a,b,c;</span><br><span class="line">	<span class="built_in">read</span>(t);</span><br><span class="line">	<span class="keyword">while</span>(t--)</span><br><span class="line">	&#123;</span><br><span class="line">		<span class="built_in">read</span>(n);<span class="built_in">read</span>(a);</span><br><span class="line">		<span class="keyword">if</span>(n==1)</span><br><span class="line">		&#123;</span><br><span class="line">			<span class="built_in">printf</span>(<span class="string">"1 %d\n"</span>,a+1);</span><br><span class="line">		&#125;</span><br><span class="line">		<span class="keyword">else</span> <span class="keyword">if</span>(n&gt;2 || n==0)</span><br><span class="line">		&#123;</span><br><span class="line">			<span class="built_in">printf</span>(<span class="string">"-1 -1\n"</span>);</span><br><span class="line">		&#125;</span><br><span class="line">		<span class="keyword">else</span></span><br><span class="line">		&#123;</span><br><span class="line">			<span class="keyword">if</span>(a%2==1)</span><br><span class="line">			&#123;</span><br><span class="line">				int g=(a-1)/2;</span><br><span class="line">				b=2*pow(g,2)+2*g;</span><br><span class="line">				c=b+1;</span><br><span class="line">			&#125;</span><br><span class="line">			<span class="keyword">else</span></span><br><span class="line">			&#123;</span><br><span class="line">				int g=a/2;</span><br><span class="line">				b=pow(g,2)-1;</span><br><span class="line">				c=b+2;</span><br><span class="line">			&#125;</span><br><span class="line">			<span class="built_in">printf</span>(<span class="string">"%d %d\n"</span>,b,c);</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
 </blockquote>
-<h2 id="sample-output"><a class="header-anchor" href="#sample-output">¶</a>Sample Output</h2>
-<blockquote>
-<p>4 5</p>
-</blockquote>
-<a id="more"></a>
-<blockquote>
-<p>题意是给出一个a和n，求出两个整数b、c，使得满足a<sup>n+b</sup>n=c^n,满足输出b、c,不满足输出-1 -1。<br>
-根据<a href="https://baike.baidu.com/item/%E8%B4%B9%E9%A9%AC%E5%A4%A7%E5%AE%9A%E7%90%86/80363?fr=aladdin" target="_blank" rel="noopener">费马大定理</a><br>
-可知当整数n &gt;2时，关于x, y, z的方程 x^n + y^n = z^n 没有正整数解，因此当n&gt;2我们直接输出-1 -1，而当n=1时，也可以直接特判输出1 a+1 。而对于n等于2的情况满足一些规律。同时本题卡时间，需要运用快读输入<br>
-直接上代码。</p>
-</blockquote>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#include&lt;math.h&gt;</span></span><br><span class="line"><span class="comment">#include&lt;stdio.h&gt;</span></span><br><span class="line"><span class="comment">#include&lt;string.h&gt;</span></span><br><span class="line">//快读模板</span><br><span class="line">template &lt;typename T&gt;inline void <span class="built_in">read</span>(T &amp;x)&#123;</span><br><span class="line">    char c;int sign=1;x=0;</span><br><span class="line">    <span class="keyword">do</span>&#123;c=getchar();<span class="keyword">if</span>(c==<span class="string">'-'</span>)sign=-1;&#125;<span class="keyword">while</span>(c&lt;<span class="string">'0'</span>||c&gt;<span class="string">'9'</span>);</span><br><span class="line">    <span class="keyword">do</span>&#123;x=x*10+c-<span class="string">'0'</span>;c=getchar();&#125;<span class="keyword">while</span>(c&gt;=<span class="string">'0'</span>&amp;&amp;c&lt;=<span class="string">'9'</span>);</span><br><span class="line">    x*=sign;</span><br><span class="line">&#125;</span><br><span class="line">//</span><br><span class="line">int main()</span><br><span class="line">&#123;</span><br><span class="line">	int t;</span><br><span class="line">	int n,a,b,c;</span><br><span class="line">	<span class="built_in">read</span>(t);</span><br><span class="line">	<span class="keyword">while</span>(t--)</span><br><span class="line">	&#123;</span><br><span class="line">		<span class="built_in">read</span>(n);<span class="built_in">read</span>(a);</span><br><span class="line">		<span class="keyword">if</span>(n==1)</span><br><span class="line">		&#123;</span><br><span class="line">			<span class="built_in">printf</span>(<span class="string">"1 %d\n"</span>,a+1);</span><br><span class="line">		&#125;</span><br><span class="line">		<span class="keyword">else</span> <span class="keyword">if</span>(n&gt;2 || n==0)</span><br><span class="line">		&#123;</span><br><span class="line">			<span class="built_in">printf</span>(<span class="string">"-1 -1\n"</span>);</span><br><span class="line">		&#125;</span><br><span class="line">		<span class="keyword">else</span></span><br><span class="line">		&#123;</span><br><span class="line">			<span class="keyword">if</span>(a%2==1)</span><br><span class="line">			&#123;</span><br><span class="line">				int g=(a-1)/2;</span><br><span class="line">				b=2*pow(g,2)+2*g;</span><br><span class="line">				c=b+1;</span><br><span class="line">			&#125;</span><br><span class="line">			<span class="keyword">else</span></span><br><span class="line">			&#123;</span><br><span class="line">				int g=a/2;</span><br><span class="line">				b=pow(g,2)-1;</span><br><span class="line">				c=b+2;</span><br><span class="line">			&#125;</span><br><span class="line">			<span class="built_in">printf</span>(<span class="string">"%d %d\n"</span>,b,c);</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
       
     </div>
 
@@ -578,7 +559,7 @@ else print two integers -1 -1 instead.</p>
       
         <div class="post-tags">
           
-            <a href="/tags/费马大定理、快读/" rel="tag"><i class="fa fa-tag"></i> 费马大定理、快读</a>
+            <a href="/tags/思维/" rel="tag"><i class="fa fa-tag"></i> 思维</a>
           
         </div>
       
@@ -600,6 +581,10 @@ else print two integers -1 -1 instead.</p>
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2018/08/28/Matrix-quick-power/" rel="prev" title="矩阵快速幂入门">
+                矩阵快速幂入门 <i class="fa fa-chevron-right"></i>
+              </a>
             
           </div>
         </div>
@@ -682,7 +667,7 @@ else print two integers -1 -1 instead.</p>
                 
                   <a href="/archives/">
                 
-                    <span class="site-state-item-count">4</span>
+                    <span class="site-state-item-count">5</span>
                     <span class="site-state-item-name">日志</span>
                   </a>
                 </div>
@@ -699,7 +684,9 @@ else print two integers -1 -1 instead.</p>
                     
                       
                     
-                    <span class="site-state-item-count">2</span>
+                      
+                    
+                    <span class="site-state-item-count">3</span>
                     <span class="site-state-item-name">分类</span>
                   </a>
                 </div>
@@ -716,7 +703,9 @@ else print two integers -1 -1 instead.</p>
                     
                       
                     
-                    <span class="site-state-item-count">2</span>
+                      
+                    
+                    <span class="site-state-item-count">3</span>
                     <span class="site-state-item-name">标签</span>
                   </a>
                 </div>
@@ -798,7 +787,7 @@ else print two integers -1 -1 instead.</p>
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#undefined"><span class="nav-number">1.</span> <span class="nav-text">来源 HDU 6441 Find Integer</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#undefined"><span class="nav-number">2.</span> <span class="nav-text">描述</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#problem-description"><span class="nav-number">2.1.</span> <span class="nav-text">¶Problem Description</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#input"><span class="nav-number">2.2.</span> <span class="nav-text">¶Input</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#output"><span class="nav-number">2.3.</span> <span class="nav-text">¶Output</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#sample-input"><span class="nav-number">2.4.</span> <span class="nav-text">¶Sample Input</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#sample-output"><span class="nav-number">2.5.</span> <span class="nav-text">¶Sample Output</span></a></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#来源-HDU-6441-Find-Integer"><span class="nav-number">1.</span> <span class="nav-text">来源 HDU 6441 Find Integer</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#描述"><span class="nav-number">2.</span> <span class="nav-text">描述</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#Problem-Description"><span class="nav-number">2.1.</span> <span class="nav-text">Problem Description</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Input"><span class="nav-number">2.2.</span> <span class="nav-text">Input</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Output"><span class="nav-number">2.3.</span> <span class="nav-text">Output</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Sample-Input"><span class="nav-number">2.4.</span> <span class="nav-text">Sample Input</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Sample-Output"><span class="nav-number">2.5.</span> <span class="nav-text">Sample Output</span></a></li></ol></li></ol></div>
             
 
           </div>
@@ -866,7 +855,7 @@ else print two integers -1 -1 instead.</p>
 
 <div class="theme-info">
   <div class="powered-by"></div>
-  <span class="post-count">博客全站共2.1k字</span>
+  <span class="post-count">博客全站共3.6k字</span>
 </div>
 
         
@@ -1505,9 +1494,9 @@ else print two integers -1 -1 instead.</p>
   
 
   
-<script type="text/javascript" src="//cdn.bootcss.com/canvas-nest.js/1.0.0/canvas-nest.min.js"></script>
+<script type="text/javascript" src="//cdn.bootcss.com/canvas-nest.js/1.0.0/canvas-nest.min.js"></script><!-- hexo-inject:begin --><!-- hexo-inject:end -->
 
-<script src="/live2dw/lib/L2Dwidget.min.js?0c58a1486de42ac6cc1c59c7d98ae887"></script><script>L2Dwidget.init({"log":false,"pluginJsPath":"lib/","pluginModelPath":"assets/","pluginRootPath":"live2dw/","tagMode":false});</script><!-- hexo-inject:begin --><!-- hexo-inject:end --></body>
+<script src="/live2dw/lib/L2Dwidget.min.js?0c58a1486de42ac6cc1c59c7d98ae887"></script><script>L2Dwidget.init({"log":false,"pluginJsPath":"lib/","pluginModelPath":"assets/","pluginRootPath":"live2dw/","tagMode":false});</script></body>
 </html>
 <!-- 页面点击小红心 -->
 <script type="text/javascript" src="/js/src/love.js"></script>
